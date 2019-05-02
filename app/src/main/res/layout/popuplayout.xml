@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shapewithborder"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/selectedDate"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textAlignment="center"
+                android:padding="5dp"
+                android:textColor="#00ddff"
+                android:textSize="20sp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Meals :"
+                android:id="@+id/mealstextview"
+                android:fontFamily="@font/rubik_bold"
+                android:textAlignment="center"
+                android:padding="10dp"
+                android:textSize="22sp"
+                android:textColor="@color/textColor"
+                android:layout_height="wrap_content" />
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:padding="10dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="BREAKFAST :"
+                    android:id="@+id/breakfasttag"
+                    android:textColor="@color/textColor"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/breakfast"
+                    android:layout_below="@+id/breakfasttag"
+                    android:textColor="@color/textColor"
+                    android:text="blablabla"
+                    android:textSize="23sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:padding="10dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="LUNCH :"
+                    android:id="@+id/lunchtag"
+                    android:textColor="@color/textColor"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/lunchtag"
+                    android:id="@+id/lunch"
+                    android:textColor="@color/textColor"
+                    android:text="blablabla"
+                    android:textSize="23sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:padding="10dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="SNACKS :"
+                    android:id="@+id/snackstag"
+                    android:textColor="@color/textColor"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/snackstag"
+                    android:id="@+id/snacks"
+                    android:textColor="@color/textColor"
+                    android:text="blablabla"
+                    android:textSize="23sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:padding="10dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="DINNER :"
+                    android:id="@+id/dinnertag"
+                    android:textColor="@color/textColor"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/dinnertag"
+                    android:textColor="@color/textColor"
+                    android:id="@+id/dinner"
+                    android:text="blablabla"
+                    android:textSize="23sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+
+</ScrollView>

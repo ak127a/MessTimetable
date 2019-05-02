@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shapewithborder"
+    android:id="@+id/scrollview"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/selectedDate"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textAlignment="center"
+                android:padding="5dp"
+                android:textColor="#00ddff"
+                android:textSize="20sp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Meals :"
+                android:id="@+id/mealstextview"
+                android:fontFamily="@font/rubik_bold"
+                android:textAlignment="center"
+                android:padding="10dp"
+                android:textSize="22sp"
+                android:textColor="@color/textColor"
+                android:layout_height="wrap_content" />
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:padding="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Breakfast :"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:textSize="20sp"
+                    android:id="@+id/breakfasttag"
+                    android:textColor="#00ddff"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/breakfast"
+                    android:layout_below="@+id/breakfasttag"
+                    android:textColor="@color/textColor"
+                    android:fontFamily="@font/muli_regular"
+                    android:text="blablabla"
+                    android:textSize="25sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:padding="10dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Lunch :"
+                    android:id="@+id/lunchtag"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:textSize="20sp"
+                    android:textColor="#00ddff"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/lunchtag"
+                    android:id="@+id/lunch"
+                    android:textColor="@color/textColor"
+                    android:text="blablabla"
+                    android:fontFamily="@font/muli_regular"
+                    android:textSize="25sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:padding="10dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Snacks :"
+                    android:id="@+id/snackstag"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:textSize="20sp"
+                    android:textColor="#00ddff"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/snackstag"
+                    android:id="@+id/snacks"
+                    android:textColor="@color/textColor"
+                    android:fontFamily="@font/muli_regular"
+                    android:text="blablabla"
+                    android:textSize="25sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:padding="10dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Dinner :"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:textSize="20sp"
+                    android:id="@+id/dinnertag"
+                    android:textColor="#00ddff"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/dinnertag"
+                    android:textColor="@color/textColor"
+                    android:fontFamily="@font/muli_regular"
+                    android:id="@+id/dinner"
+                    android:text="blablabla"
+                    android:textSize="25sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+
+</ScrollView>
